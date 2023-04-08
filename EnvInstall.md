@@ -39,3 +39,10 @@ Could not locate zlibwapi.dll. Please make sure it is in your library path!
 1. Find `zlib.dll` under `C:\Program Files\NVIDIA Corporation\Nsight Systems 2022.1.3\host-windows-x64\`
 2. Copy and paste `zlib.dll` to `C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin`
 3. Rename as `zlibwapi.dll`
+
+# Gym
+
+```
+conda install -c conda-forge -c powerai gym
+conda install -c conda-forge gym-box2d
+```
