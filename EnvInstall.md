@@ -46,3 +46,25 @@ Could not locate zlibwapi.dll. Please make sure it is in your library path!
 conda install -c conda-forge -c powerai gym
 conda install -c conda-forge gym-box2d
 ```
+
+# C++
+
+## MSYS2 + MinGW
+```
+https://www.msys2.org/
+```
+
+## Xmake
+```
+https://github.com/xmake-io/xmake
+```
+
+```
+Target Platform: mingw
+Target Architecture: x86_64
+```
+
+```
+// Build
+xmake f -p mingw -a x86_64 -m debug
+```
