@@ -16,6 +16,10 @@ public class ArrayListUtil {
 		}
 	}
 
+	public static void better_remove(ArrayList<String> arrayList, String element) {
+		arrayList.removeIf(item -> element.equals(item));
+	}
+
 	public static void main(String[] args){
 
 		ArrayList<String> words = new ArrayList<>(
